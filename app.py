@@ -179,17 +179,17 @@ pages = {
         st.Page("src/charts/video3/video_subtitles.py", title="Subtitles"),
     ],
     "Status": [
-        st.Page("src/status/status.py", title="Status.status"),
-        st.Page("src/status/toast2.py", title="Status.toast 2"),
-        st.Page("src/status/spinner.py", title="Status.spinner"),
-        st.Page("src/status/toast.py", title="Status.toast"),
-        st.Page("src/status/status1.py", title="Status.status 1"),
-        st.Page("src/status/progress.py", title="Status.progress"),
-        st.Page("src/status/exception.py", title="Status.exception"),
-        st.Page("src/status/toast1.py", title="Status.toast 1"),
+        st.Page("src/status/exception.py", title="Exception"),
+        st.Page("src/status/progress.py", title="Progress"),
+        st.Page("src/status/spinner.py", title="Spinner"),
+        st.Page("src/status/status.py", title="Status"),
+        st.Page("src/status/status1.py", title="Status 1"),
+        st.Page("src/status/toast.py", title="Toast"),
+        st.Page("src/status/toast1.py", title="Toast 1"),
+        st.Page("src/status/toast2.py", title="Toast 2"),
     ],
     "MPA": [
-        st.Page("src/mpa-hello/0_👋_Hello.py", title="0 👋 Hello"),
+        st.Page("src/mpa-hello/0_👋_Hello.py", title="👋 Hello"),
     ],
     "Utilities": [
         st.Page("src/utilities/help.py", title="Utilities.help"),
@@ -253,25 +253,12 @@ pages = {
         st.Page("src/tutorials/create-a-simple-grid.py", title="Create a Simple Grid"),
     ],
     "Tutorials/dynamic-navigation": [
-        st.Page(
-            "src/tutorials/dynamicnavigation/dynamic-navigation.py",
-            title="Dynamic Navigation",
-        ),
+        st.Page("src/tutorials/dynamicnavigation/dynamic-navigation.py",title="Dynamic Navigation",),
         st.Page("src/tutorials/dynamicnavigation/admin/admin_1.py", title="Admin  1"),
         st.Page("src/tutorials/dynamicnavigation/admin/admin_2.py", title="Admin  2"),
-    ],
-    "tutorials/dynamic-navigation/respond": [
-        st.Page(
-            "src/tutorials/dynamicnavigation/respond/respond_2.py", title="Respond  2"
-        ),
-        st.Page(
-            "src/tutorials/dynamicnavigation/respond/respond_1.py", title="Respond  1"
-        ),
-    ],
-    "tutorials/dynamic-navigation/settings": [
+        st.Page("src/tutorials/dynamicnavigation/respond/respond_2.py", title="Respond  2"),
+        st.Page("src/tutorials/dynamicnavigation/respond/respond_1.py", title="Respond  1"),
         st.Page("src/tutorials/dynamicnavigation/settings.py", title="Settings"),
-    ],
-    "tutorials/dynamic-navigation/request": [
         st.Page(
             "src/tutorials/dynamicnavigation/request/request_1.py", title="Request  1"
         ),
@@ -289,7 +276,7 @@ pages = {
             title="Tutorial-chat-revision",
         ),
     ],
-    "hello": [
+    "Hello": [
         st.Page("src/hello/hello.py", title="Hello"),
     ],
     "Text": [
@@ -358,14 +345,14 @@ pages = {
             title="06 🙌 Community Connections",
         ),
     ],
-    "metric": [
+    "Metric": [
         st.Page("src/metric/example1.py", title="Metric.example 1"),
         st.Page("src/metric/example5.py", title="Metric.example 5"),
         st.Page("src/metric/example4.py", title="Metric.example 4"),
         st.Page("src/metric/example3.py", title="Metric.example 3"),
         st.Page("src/metric/example2.py", title="Metric.example 2"),
     ],
-    "data": [
+    "Data": [
         st.Page("src/data/data_editor2.py", title="Data.data Editor 2"),
         st.Page("src/data/table.py", title="Data.table"),
         st.Page("src/data/json_column.py", title="Data.json Column"),
@@ -405,8 +392,8 @@ pages = {
         st.Page("src/data/data_editor1.py", title="Data.data Editor 1"),
         st.Page("src/data/checkbox_column.py", title="Data.checkbox Column"),
     ],
-    "media": [
-        st.Page("src/media/logo.py", title="Media.logo"),
+    "Media": [
+        st.Page("src/media/logo.py", title="Logo"),
     ],
     "Functions": [
             page1,
