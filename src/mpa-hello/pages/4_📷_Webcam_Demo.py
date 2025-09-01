@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import streamlit as st
-from utils import show_code
+from src.charts.video3.utils importshow_code
 
 
 def webcam_demo():

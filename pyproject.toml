@@ -1,0 +1,20 @@
+[project]
+name = "learning-streamlit"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "altair>=5.0.0",
+    "bokeh==2.4.3",
+    "faker>=37.6.0",
+    "graphviz>=0.21",
+    "matplotlib>=3.10.6",
+    "numpy<2",
+    "openai>=1.102.0",
+    "pandas>=2.3.2",
+    "plotly>=6.3.0",
+    "pydeck>=0.9.1",
+    "requests>=2.32.5",
+    "scipy>=1.16.1",
+    "streamlit>=1.49.0",
+    "vega-datasets>=0.9.0",
+]

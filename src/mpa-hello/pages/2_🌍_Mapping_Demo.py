@@ -17,7 +17,7 @@ from urllib.error import URLError
 import pandas as pd
 import pydeck as pdk
 import streamlit as st
-from utils import show_code
+from src.charts.video3.utils importshow_code
 
 
 def mapping_demo():

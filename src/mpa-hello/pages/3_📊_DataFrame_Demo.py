@@ -17,7 +17,7 @@ from urllib.error import URLError
 import altair as alt
 import pandas as pd
 import streamlit as st
-from utils import show_code
+from src.charts.video3.utils importshow_code
 
 
 def data_frame_demo():
@@ -52,7 +52,7 @@ def data_frame_demo():
                     color="Region:N",
                 )
             )
-            st.altair_chart(chart, use_container_width=True)
+            st.altair_chart(chart, width='content')
     except URLError as e:
         st.error(
             """

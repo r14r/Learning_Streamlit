@@ -9,12 +9,12 @@ def page2():
 
 pages = {
     "Your account": [
-        st.Page("pages/create_account.py", title="Create your account"),
-        st.Page("pages/manage_account.py", title="Manage your account"),
+        st.Page("src/navigation/pages/create_account.py", title="Create your account"),
+        st.Page("src/navigation/pages/manage_account.py", title="Manage your account"),
     ],
     "Resources": [
-        st.Page("pages/learn.py", title="Learn about us"),
-        st.Page("pages/trial.py", title="Try it out"),
+        st.Page("src/navigation/pages/learn.py", title="Learn about us"),
+        st.Page("src/navigation/pages/trial.py", title="Try it out"),
     ],
     "Widgets": [
         page1,
@@ -22,22 +22,7 @@ pages = {
     ],
 }
 
-
-
 # -------------------------------------------------------------------------------------------------
-if "top" not in st.session_state:
-    st.session_state.top = False
-
-top = "top" if st.session_state.top else "sidebar"
-
-
-# -------------------------------------------------------------------------------------------------
-st.sidebar.checkbox("Top Navigation", key="top")
-
-st.sidebar.selectbox("Foo", ["A", "B", "C"], key="foo")
-st.sidebar.checkbox("Bar", key="bar")
-
-# -------------------------------------------------------------------------------------------------
-pg = st.navigation(pages, position=top)
+pg = st.navigation(pages, position='top')
 
 pg.run()

@@ -32,6 +32,6 @@ def get_chart(use_container_width: bool):
 
 
 try:
-    get_chart(use_container_width=True)
+    get_chart(width='content')
 except Exception as e:
     st.exception(e)

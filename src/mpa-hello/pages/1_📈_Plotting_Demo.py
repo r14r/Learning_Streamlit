@@ -15,7 +15,7 @@
 import streamlit as st
 import time
 import numpy as np
-from utils import show_code
+from src.charts.video3.utils importshow_code
 
 
 def plotting_demo():
