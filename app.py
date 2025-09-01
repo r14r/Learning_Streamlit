@@ -10,6 +10,9 @@ def page2():
 
 
 pages = {
+    "App": [
+        st.Page("src/intro/intro.py", title="Intro"),
+    ],
     "Forms": [
         st.Page("src/forms/form1.py", title="Form  1"),
         st.Page("src/forms/form2.py", title="Form  2"),
@@ -417,5 +420,4 @@ st.sidebar.checkbox("Bar", key="bar")
 
 # -------------------------------------------------------------------------------------------------
 pg = st.navigation(pages, position=top)
-
 pg.run()
