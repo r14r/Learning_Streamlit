@@ -419,5 +419,5 @@ st.sidebar.selectbox("Foo", ["A", "B", "C"], key="foo")
 st.sidebar.checkbox("Bar", key="bar")
 
 # -------------------------------------------------------------------------------------------------
-pg = st.navigation(pages, position=top)
+pg = st.navigation(pages, position=top, expanded=False)
 pg.run()
